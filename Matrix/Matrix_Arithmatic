@@ -1,0 +1,26 @@
+#matrix arithmatic
+mat <- matrix(1:25,byrow = T,nrow =5)
+mat
+
+#element  by element operations are done
+a <- mat  + 2
+a
+
+b <- mat * 3
+b
+
+c <- mat / 4
+c
+
+d <- mat ^ 2
+d
+
+mat > 4#gives t or f wherever the element is > 4 or not
+
+mat
+mat[mat > 3]
+
+mat * mat #multiplying the matrix with itself,but its not the true matrix mul
+
+#matrix mult (true) linear algebra
+mat %*% mat
